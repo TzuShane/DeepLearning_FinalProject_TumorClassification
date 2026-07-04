@@ -2,7 +2,7 @@
 
 以深度學習對腦部 MRI 影像進行四類別腫瘤分類（glioma / meningioma / pituitary / no tumor），比較自建 CNN 與三種預訓練架構，並以 Grad-CAM 提供可解釋性分析。PyTorch 實作。
 
-> 深度學習課程期末專題。
+> 深度學習課程期末專題
 
 ## 主要結果
 
