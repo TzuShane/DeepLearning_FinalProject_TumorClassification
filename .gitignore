@@ -1,0 +1,32 @@
+# ===== 資料集與大型產出（不進 repo）=====
+brain-tumor-mri-dataset/
+data/
+outputs/
+files/
+
+# 訓練權重與快取（可重新訓練，勿上傳）
+*.pt
+*.pth
+*.keras
+*.h5
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# 虛擬環境
+.venv/
+venv/
+env/
+.conda/
+
+# ===== 作業系統 / 編輯器 =====
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ===== 其他 =====
+*.log

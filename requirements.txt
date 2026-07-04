@@ -1,0 +1,12 @@
+# 核心框架（見 README 的環境設定，兩台機器安裝方式不同）
+#   RTX 4070 Super (CUDA):  pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+#   MacBook M4 Pro (MPS):   pip install torch torchvision
+torch>=2.2
+torchvision>=0.17
+
+# 資料處理、評估、視覺化
+numpy
+scikit-learn
+matplotlib
+seaborn
+pillow
